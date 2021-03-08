@@ -4,4 +4,3 @@
 ## Functionalities Used
 
     - RealTime Database usage for Test Mode
-    - Email and Password Authentication

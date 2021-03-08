@@ -1,3 +1,4 @@
+import 'package:cab_rider/screens/loginpage.dart';
 import 'package:cab_rider/screens/mainpage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -32,9 +33,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily: 'Brand-Regular',
         primarySwatch: Colors.blue,
       ),
-      home: MainPage(),
+      home: LoginPage(),
     );
   }
 }
