@@ -1,8 +1,12 @@
+import 'package:cab_rider/screens/loginpage.dart';
 import 'package:flutter/material.dart';
 
 import '../brand_colors.dart';
 
 class RegistrationPage extends StatelessWidget {
+
+  static const String id = "register";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -131,7 +135,9 @@ class RegistrationPage extends StatelessWidget {
                   ),
                 ),
                 TextButton(
-                  onPressed: (){},
+                  onPressed: (){
+                    Navigator.pushNamedAndRemoveUntil(context, LoginPage.id,(route)=>false);
+                  },
                   child: Text("Already have a Rider's Account? Login!"),
                 )
               ],
