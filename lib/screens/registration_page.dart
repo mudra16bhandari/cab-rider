@@ -1,4 +1,5 @@
 import 'package:cab_rider/screens/loginpage.dart';
+import 'package:cab_rider/widgets/TaxiButton.dart';
 import 'package:flutter/material.dart';
 
 import '../brand_colors.dart';
@@ -105,32 +106,11 @@ class RegistrationPage extends StatelessWidget {
                       SizedBox(
                         height: 14,
                       ),
-                      ElevatedButton(
-                        onPressed: () {},
-                        /*color: BrandColors.colorBlueGray,
-                        textColor: Colors.white,
-                        shape: new RoundedRectangleBorder(
-                            borderRadius: new BorderRadius.circular(25.0)),*/
-                        style: ButtonStyle(shape: MaterialStateProperty.all(
-                            new RoundedRectangleBorder(
-                                borderRadius: new BorderRadius.circular(25.0)
-                            )
-                        ),
-                            foregroundColor: MaterialStateProperty.all(Colors.white),
-                            backgroundColor: MaterialStateProperty.all(BrandColors.colorBlueGray)),
-                        child: Container(
-                          height: 50,
-                          child: Center(
-                            child: Text(
-                              'REGISTER',
-                              style: TextStyle(
-                                fontSize: 18.0,
-                                fontFamily: 'Brand-Bold',
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
+                      TaxiButton(
+                        title: "REGISTER",
+                        color: BrandColors.colorBlueGray,
+                        onPressed: (){},
+                      )
                     ],
                   ),
                 ),
