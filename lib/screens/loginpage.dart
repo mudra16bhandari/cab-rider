@@ -66,12 +66,19 @@ class LoginPage extends StatelessWidget {
                       SizedBox(
                         height: 14,
                       ),
-                      RaisedButton(
+                      ElevatedButton(
                         onPressed: () {},
-                        color: BrandColors.colorBlueGray,
+                        /*color: BrandColors.colorBlueGray,
                         textColor: Colors.white,
                         shape: new RoundedRectangleBorder(
-                            borderRadius: new BorderRadius.circular(25.0)),
+                            borderRadius: new BorderRadius.circular(25.0)),*/
+                        style: ButtonStyle(shape: MaterialStateProperty.all(
+                          new RoundedRectangleBorder(
+                            borderRadius: new BorderRadius.circular(25.0)
+                          )
+                        ),
+                        foregroundColor: MaterialStateProperty.all(Colors.white),
+                        backgroundColor: MaterialStateProperty.all(BrandColors.colorBlueGray)),
                         child: Container(
                           height: 50,
                           child: Center(
@@ -88,7 +95,7 @@ class LoginPage extends StatelessWidget {
                     ],
                   ),
                 ),
-                FlatButton(
+                TextButton(
                   onPressed: (){},
                   child: Text("Don't have an account? Sign up here!"),
                 )
