@@ -6,6 +6,7 @@ INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManif
 INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-47:12
 MERGED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-47:12
 MERGED from [:firebase_auth] M:\Projects in flutter\cab_rider\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:connectivity] M:\Projects in flutter\cab_rider\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:firebase_database] M:\Projects in flutter\cab_rider\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] M:\Projects in flutter\cab_rider\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:17:1-83:12
@@ -30,9 +31,9 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HP\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d99ea84fa4adf2984fe4e585a3222652\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c41cc3207e1cdfa82e55f02c355616c2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5ffa2f7cdad188079589f742d0e5215a\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\29c9236d8556e66c150b1cba2401ead9\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\2eb31a6d28642f338eb229439c98faec\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\be5683b9e505895e93a9234c92606138\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\29c9236d8556e66c150b1cba2401ead9\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -134,6 +135,8 @@ INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManif
 INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml
 MERGED from [:firebase_auth] M:\Projects in flutter\cab_rider\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] M:\Projects in flutter\cab_rider\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] M:\Projects in flutter\cab_rider\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] M:\Projects in flutter\cab_rider\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_database] M:\Projects in flutter\cab_rider\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_database] M:\Projects in flutter\cab_rider\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] M:\Projects in flutter\cab_rider\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -182,12 +185,12 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HP\.gradle\caches\t
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c41cc3207e1cdfa82e55f02c355616c2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5ffa2f7cdad188079589f742d0e5215a\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5ffa2f7cdad188079589f742d0e5215a\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\29c9236d8556e66c150b1cba2401ead9\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\29c9236d8556e66c150b1cba2401ead9\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\2eb31a6d28642f338eb229439c98faec\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\2eb31a6d28642f338eb229439c98faec\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\be5683b9e505895e93a9234c92606138\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\be5683b9e505895e93a9234c92606138\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\29c9236d8556e66c150b1cba2401ead9\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\29c9236d8556e66c150b1cba2401ead9\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml
 INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -230,6 +233,14 @@ ADDED from [:firebase_auth] M:\Projects in flutter\cab_rider\build\firebase_auth
 		ADDED from [:firebase_auth] M:\Projects in flutter\cab_rider\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_auth] M:\Projects in flutter\cab_rider\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:connectivity] M:\Projects in flutter\cab_rider\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from [:connectivity] M:\Projects in flutter\cab_rider\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
 ADDED from [:firebase_database] M:\Projects in flutter\cab_rider\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
@@ -242,12 +253,6 @@ ADDED from [:firebase_core] M:\Projects in flutter\cab_rider\build\firebase_core
 		ADDED from [:firebase_core] M:\Projects in flutter\cab_rider\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_core] M:\Projects in flutter\cab_rider\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:25:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents
