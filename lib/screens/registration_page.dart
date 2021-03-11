@@ -1,5 +1,6 @@
 import 'package:cab_rider/screens/loginpage.dart';
 import 'package:cab_rider/widgets/TaxiButton.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import '../brand_colors.dart';
@@ -7,10 +8,43 @@ import '../brand_colors.dart';
 class RegistrationPage extends StatelessWidget {
 
   static const String id = "register";
+  
+  final GlobalKey<ScaffoldState> scaffoldKey = new GlobalKey<ScaffoldState>();
+  
+  void showSnackBar(String title){
+    final snackbar = SnackBar(
+      content: Text(title, textAlign: TextAlign.center,style: TextStyle(fontSize: 15),),
+    );
+    ScaffoldMessenger.of(scaffoldKey.currentState.context).showSnackBar(snackbar);
+    
+  }
+
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+
+  var fullNameController = TextEditingController();
+  var emailController = TextEditingController();
+  var phoneController = TextEditingController();
+  var passwordController = TextEditingController();
+
+  void registerUser() async{
+    final User user = (await _auth.createUserWithEmailAndPassword(
+        email: emailController.text,
+        password: passwordController.text)).user;
+
+    if(user!=null){
+      print("Registration Successful!");
+    }
+    else{
+      print("Some error occurred!");
+    }
+  }
+
+  
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: scaffoldKey,
       backgroundColor: Colors.white,
       body: SafeArea(
         child: SingleChildScrollView(
@@ -41,6 +75,7 @@ class RegistrationPage extends StatelessWidget {
                     children: [
                       //Full name
                       TextField(
+                        controller: fullNameController,
                         keyboardType: TextInputType.name,
                         decoration: InputDecoration(
                             labelText: 'Full name',
@@ -58,6 +93,7 @@ class RegistrationPage extends StatelessWidget {
                       ),
                       //Email Address
                       TextField(
+                        controller: emailController,
                         keyboardType: TextInputType.emailAddress,
                         decoration: InputDecoration(
                             labelText: 'Email address',
@@ -75,6 +111,7 @@ class RegistrationPage extends StatelessWidget {
                       ),
                       // Phone Number
                       TextField(
+                        controller: phoneController,
                         keyboardType: TextInputType.phone,
                         decoration: InputDecoration(
                             labelText: 'Phone number',
@@ -91,6 +128,7 @@ class RegistrationPage extends StatelessWidget {
                         height: 10,
                       ),
                       TextField(
+                        controller: passwordController,
                         obscureText: true,
                         decoration: InputDecoration(
                             labelText: 'Password',
@@ -109,7 +147,27 @@ class RegistrationPage extends StatelessWidget {
                       TaxiButton(
                         title: "REGISTER",
                         color: BrandColors.colorBlueGray,
-                        onPressed: (){},
+                        onPressed: (){
+                          //check network connection
+                          if(fullNameController.text.length < 3){
+                            showSnackBar('Please provide a valid full name.');
+                            return;
+                          }
+                          if(!emailController.text.contains('@')){
+                            showSnackBar('Please provide a valid email address.');
+                            return;
+                          }
+                          if(phoneController.text.length<10){
+                            showSnackBar('Please provide a valid phone number.');
+                            return;
+                          }
+                          if(passwordController.text.length<8){
+                            showSnackBar('Password must have atleast 8 characters.');
+                            return;
+                          }
+
+                          registerUser();
+                        },
                       )
                     ],
                   ),
