@@ -39,17 +39,17 @@ class _RegistrationPageState extends State<RegistrationPage> {
   var passwordController = TextEditingController();
 
   void registerUser() async{
-    final User user = (await _auth.createUserWithEmailAndPassword(
+    final User _user = (await _auth.createUserWithEmailAndPassword(
         email: emailController.text,
         password: passwordController.text).catchError((ex){
           //check error and display message
-          PlatformException thisEx = ex;
+          FirebaseAuthException thisEx = ex;
           showSnackBar(thisEx.message);
     })).user;
 
     //check if user registration is successful
-    if(user!=null){
-      DatabaseReference newUserRef = FirebaseDatabase.instance.reference().child('users/${user.uid}');
+    if(_user!=null){
+      DatabaseReference newUserRef = FirebaseDatabase.instance.reference().child('users/${_user.uid}');
 
       //prepare data to be saved on users table
       Map userMap = {
