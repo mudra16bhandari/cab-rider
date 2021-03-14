@@ -1,5 +1,6 @@
 import 'package:cab_rider/screens/loginpage.dart';
 import 'package:cab_rider/screens/mainpage.dart';
+import 'package:cab_rider/widgets/ProgressDialog.dart';
 import 'package:cab_rider/widgets/TaxiButton.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
@@ -39,14 +40,22 @@ class _RegistrationPageState extends State<RegistrationPage> {
   var passwordController = TextEditingController();
 
   void registerUser() async{
+
+    showDialog(
+      barrierDismissible: false,
+      context: context,
+      builder: (BuildContext context)=>ProgressDialog(status: 'Registering you!'),
+    );
     final User _user = (await _auth.createUserWithEmailAndPassword(
         email: emailController.text,
         password: passwordController.text).catchError((ex){
           //check error and display message
+          Navigator.pop(context);
           FirebaseAuthException thisEx = ex;
           showSnackBar(thisEx.message);
     })).user;
 
+    Navigator.pop(context);
     //check if user registration is successful
     if(_user!=null){
       DatabaseReference newUserRef = FirebaseDatabase.instance.reference().child('users/${_user.uid}');
