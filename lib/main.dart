@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Brand-Regular',
         primarySwatch: Colors.blue,
       ),
-      initialRoute: LoginPage.id,
+      initialRoute: MainPage.id,
       routes: {
         RegistrationPage.id: (context)=> RegistrationPage(),
         LoginPage.id: (context)=>LoginPage(),
