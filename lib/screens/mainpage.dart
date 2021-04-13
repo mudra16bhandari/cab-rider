@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:outline_material_icons/outline_material_icons.dart';
+import 'dart:io';
 
 class MainPage extends StatefulWidget {
 
@@ -16,8 +17,12 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage> {
 
+  double searchSheetHeight = (Platform.isIOS) ? 300 : 265;
+
   Completer<GoogleMapController> _controller = Completer();
   GoogleMapController mapController;
+  double mapBottomPadding = 0;
+
 
   static final CameraPosition _kGooglePlex = CameraPosition(
     target: LatLng(37.42796133580664, -122.085749655962),
@@ -31,12 +36,16 @@ class _MainPageState extends State<MainPage> {
       body: Stack(
         children: [
           GoogleMap(
+            padding: EdgeInsets.only(bottom: mapBottomPadding),
             mapType: MapType.normal,
             myLocationButtonEnabled: true,
             initialCameraPosition: _kGooglePlex,
             onMapCreated: (GoogleMapController controller){
               _controller.complete(controller);
               mapController = controller;
+              setState(() {
+                mapBottomPadding = (Platform.isAndroid) ? 260 : 270;
+              });
             },
           ),
           Positioned(
@@ -44,7 +53,7 @@ class _MainPageState extends State<MainPage> {
             right: 0,
             bottom: 0,
             child: Container(
-              height: 265,
+              height: searchSheetHeight,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(topLeft: Radius.circular(15), topRight: Radius.circular(15)),
