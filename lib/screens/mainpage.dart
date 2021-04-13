@@ -1,7 +1,10 @@
 import 'dart:async';
+import 'package:cab_rider/brand_colors.dart';
+import 'package:cab_rider/widgets/BrandDivider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:outline_material_icons/outline_material_icons.dart';
 
 class MainPage extends StatefulWidget {
 
@@ -41,7 +44,7 @@ class _MainPageState extends State<MainPage> {
             right: 0,
             bottom: 0,
             child: Container(
-              height: 240,
+              height: 265,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(topLeft: Radius.circular(15), topRight: Radius.circular(15)),
@@ -86,11 +89,44 @@ class _MainPageState extends State<MainPage> {
                             Icon(Icons.search, color: Colors.blueAccent,),
                             SizedBox(width: 10),
                             Text('Search Destination'),
-
                           ],
                         ),
                       ),
                     ),
+                    SizedBox(height: 22,),
+                    Row(
+                      children: [
+                        Icon(OMIcons.home, color: BrandColors.colorDimText,),
+                        SizedBox(width: 12,),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text('Add Home',),
+                            SizedBox(height: 3,),
+                            Text('Your residential address', style: TextStyle(fontSize: 11, color: BrandColors.colorDimText,))
+                          ],
+                        )
+                      ],
+                    ),
+                    SizedBox(height: 10,),
+                    BrandDivider(),
+                    SizedBox(height: 16,),
+
+                    Row(
+                      children: [
+                        Icon(OMIcons.workOutline, color: BrandColors.colorDimText,),
+                        SizedBox(width: 12,),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text('Add Work',),
+                            SizedBox(height: 3,),
+                            Text('Your office address', style: TextStyle(fontSize: 11, color: BrandColors.colorDimText,))
+                          ],
+                        )
+                      ],
+                    ),
+
                   ],
                 ),
               ),
