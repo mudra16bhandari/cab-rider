@@ -4,6 +4,7 @@ import 'package:cab_rider/styles/styles.dart';
 import 'package:cab_rider/widgets/BrandDivider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:outline_material_icons/outline_material_icons.dart';
 import 'dart:io';
@@ -25,6 +26,17 @@ class _MainPageState extends State<MainPage> {
   Completer<GoogleMapController> _controller = Completer();
   GoogleMapController mapController;
   double mapBottomPadding = 0;
+
+  var geoLocator = Geolocator();
+  Position currentPosition;
+
+  void setupPositionLocator() async{
+    Position position = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.bestForNavigation);
+    currentPosition = position;
+    LatLng pos = LatLng(position.latitude, position.longitude);
+    CameraPosition cp = new CameraPosition(target: pos, zoom: 14);
+    mapController.animateCamera(CameraUpdate.newCameraPosition(cp));
+  }
 
 
   static final CameraPosition _kGooglePlex = CameraPosition(
@@ -99,18 +111,17 @@ class _MainPageState extends State<MainPage> {
             mapType: MapType.normal,
             myLocationButtonEnabled: true,
             initialCameraPosition: _kGooglePlex,
+            myLocationEnabled: true,
+            zoomControlsEnabled: true,
+            zoomGesturesEnabled: true,
             onMapCreated: (GoogleMapController controller){
               _controller.complete(controller);
               mapController = controller;
               setState(() {
                 mapBottomPadding = (Platform.isAndroid) ? 260 : 270;
               });
+              setupPositionLocator();
             },
-          ),
-          Container(
-            decoration: BoxDecoration(
-              color: Colors.white
-            ),
           ),
           Positioned(
             top: 44,

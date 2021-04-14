@@ -1,18 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-50:12
-INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-50:12
-INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-50:12
-INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-50:12
-MERGED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-50:12
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-53:12
+MERGED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-53:12
 MERGED from [:firebase_auth] M:\Projects in flutter\cab_rider\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:google_maps_flutter] M:\Projects in flutter\cab_rider\build\google_maps_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_plugin_android_lifecycle] M:\Projects in flutter\cab_rider\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:connectivity] M:\Projects in flutter\cab_rider\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:geolocator] M:\Projects in flutter\cab_rider\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_database] M:\Projects in flutter\cab_rider\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] M:\Projects in flutter\cab_rider\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c56d343dadbd5de2e9c955fa8e4e1c1\play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b16942fa7a97917af413615b3a813965\play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c68c629f31f51748b9746c4ee8bfda39\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\348e0fd87eb41bffccaba8ef553c83e6\play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
@@ -20,6 +22,7 @@ MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\HP\.grad
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\204985af97685d6de98236b6a83a3c61\firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\97461efba6c5e9e0983cc52e8129f2d5\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f4525b492650c7c086b6107d0bb3273d\jetified-firebase-common-19.5.0\AndroidManifest.xml:15:1-49:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f524bccf72d0b3c7e7f232505d3b421f\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\64b898e8183dd20760b3723b25be42f7\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c149ef41a2cd2de8315e7e547bd77171\jetified-play-services-basement-17.1.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7cb4a46ee535916a64932d3e4f7a44eb\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -46,16 +49,36 @@ INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidMani
 		INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-50:12
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-53:12
 		INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
 		INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-50:12
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:1-53:12
 		INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.INTERNET
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:10:5-66
+MERGED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:10:5-66
+MERGED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:10:5-66
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c56d343dadbd5de2e9c955fa8e4e1c1\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c56d343dadbd5de2e9c955fa8e4e1c1\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:10:22-64
 application
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:8:5-49:19
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:11:5-52:19
 MERGED from [:firebase_auth] M:\Projects in flutter\cab_rider\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] M:\Projects in flutter\cab_rider\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_database] M:\Projects in flutter\cab_rider\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
@@ -66,6 +89,8 @@ MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\cache
 MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c56d343dadbd5de2e9c955fa8e4e1c1\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c56d343dadbd5de2e9c955fa8e4e1c1\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b16942fa7a97917af413615b3a813965\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b16942fa7a97917af413615b3a813965\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\348e0fd87eb41bffccaba8ef553c83e6\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
@@ -76,6 +101,8 @@ MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.grad
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\97461efba6c5e9e0983cc52e8129f2d5\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f4525b492650c7c086b6107d0bb3273d\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f4525b492650c7c086b6107d0bb3273d\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f524bccf72d0b3c7e7f232505d3b421f\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f524bccf72d0b3c7e7f232505d3b421f\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\64b898e8183dd20760b3723b25be42f7\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\64b898e8183dd20760b3723b25be42f7\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c149ef41a2cd2de8315e7e547bd77171\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
@@ -87,59 +114,59 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3e26ef26d15f163a2f1a31a2130a0254\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:10:9-34
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:13:9-34
 	android:icon
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:14:9-43
 	android:name
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:9:9-57
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:12:9-57
 activity#com.mudrab.cab_rider.MainActivity
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:12:9-40:20
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:15:9-43:20
 	android:launchMode
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:14:13-43
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:17:13-43
 	android:hardwareAccelerated
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:17:13-47
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:20:13-47
 	android:windowSoftInputMode
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:18:13-55
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:21:13-55
 	android:configChanges
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:16:13-163
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:19:13-163
 	android:theme
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:15:13-47
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:18:13-47
 	android:name
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:16:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:23:13-26:17
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:26:13-29:17
 	android:resource
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:25:15-52
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:28:15-52
 	android:name
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:24:15-70
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:27:15-70
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:32:13-35:17
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:35:13-38:17
 	android:resource
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:34:15-61
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:37:15-61
 	android:name
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:33:15-79
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:36:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:36:13-39:29
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:39:13-42:29
 action#android.intent.action.MAIN
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:37:17-68
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:40:17-68
 	android:name
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:38:17-76
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:41:17-76
 	android:name
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:41:27-74
 meta-data#flutterEmbedding
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:43:9-45:33
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:46:9-48:33
 	android:value
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:45:13-30
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:48:13-30
 	android:name
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:44:13-44
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:47:13-44
 meta-data#com.google.android.geo.API_KEY
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:46:9-47:77
+ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:49:9-50:77
 	android:value
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:47:20-75
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:50:20-75
 	android:name
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:46:20-65
+		ADDED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml:49:20-65
 uses-sdk
 INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml
@@ -152,6 +179,8 @@ MERGED from [:flutter_plugin_android_lifecycle] M:\Projects in flutter\cab_rider
 MERGED from [:flutter_plugin_android_lifecycle] M:\Projects in flutter\cab_rider\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:connectivity] M:\Projects in flutter\cab_rider\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:connectivity] M:\Projects in flutter\cab_rider\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator] M:\Projects in flutter\cab_rider\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator] M:\Projects in flutter\cab_rider\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_database] M:\Projects in flutter\cab_rider\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_database] M:\Projects in flutter\cab_rider\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] M:\Projects in flutter\cab_rider\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -160,6 +189,8 @@ MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\cache
 MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c56d343dadbd5de2e9c955fa8e4e1c1\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c56d343dadbd5de2e9c955fa8e4e1c1\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b16942fa7a97917af413615b3a813965\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b16942fa7a97917af413615b3a813965\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c68c629f31f51748b9746c4ee8bfda39\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
@@ -174,6 +205,8 @@ MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.grad
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\97461efba6c5e9e0983cc52e8129f2d5\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f4525b492650c7c086b6107d0bb3273d\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f4525b492650c7c086b6107d0bb3273d\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f524bccf72d0b3c7e7f232505d3b421f\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f524bccf72d0b3c7e7f232505d3b421f\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\64b898e8183dd20760b3723b25be42f7\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\64b898e8183dd20760b3723b25be42f7\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c149ef41a2cd2de8315e7e547bd77171\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
@@ -216,16 +249,6 @@ INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidMani
 	android:minSdkVersion
 		INJECTED from M:\Projects in flutter\cab_rider\android\app\src\main\AndroidManifest.xml
 		INJECTED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml:6:5-66
-MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e6659c96d6b9b2438305c88e87d62d80\jetified-firebase-auth-20.0.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c56d343dadbd5de2e9c955fa8e4e1c1\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c56d343dadbd5de2e9c955fa8e4e1c1\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f99aea24c06e078e76e6304d02c52659\firebase-database-19.6.0\AndroidManifest.xml:26:5-67
-	android:name
-		ADDED from M:\Projects in flutter\cab_rider\android\app\src\debug\AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:firebase_auth] M:\Projects in flutter\cab_rider\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_database] M:\Projects in flutter\cab_rider\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
